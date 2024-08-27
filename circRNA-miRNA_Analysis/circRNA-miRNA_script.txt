@@ -1,0 +1,19 @@
+
+Requirements and Support Files:
+===============================
+Requirements and all Support Files to run circR can be found at the original source code here: https://github.com/bicciatolab/Circr
+
+
+microRNA sequences downloaded from miRbase v22
+==============================================
+https://www.mirbase.org/download/
+
+
+
+Example script to run circR:
+===========================
+
+python Circr.py --threads 14 -i CircRNA_Overlap12_18hrs.bed --gtf hg38.ensGene.gtf --genome hg38.fa --rRNA hg38.rRNA.bed --miRNA hsa_mature.fa --AGO hg38.AGO.bed --validated_interactionshg38.INT.bed -o overlap_12_18_miRanda_Nostringent.csv
+
+
+**More information on how to run circR for circRNA-miRNA analysis can be found at the original source code site.
