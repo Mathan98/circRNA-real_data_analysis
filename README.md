@@ -1,9 +1,9 @@
-# circRNA-real_data_analysis
+# CircRNA real_data_analysis
 CircRNA analysis (Identification, Quantification, Characterisation, Functional Annotation)
 
 # CircRNA functions as microRNA sponges that inadvertently regulates mRNA expression
 
-## CircRNA-miRNA Prediction
+## CircRNA-miRNA prediction
 
 CircR is a tool used to predict the circRNA-miRNA interactions given user input circRNA coordinates in a bed file and supplementary files provided by CircR developers ([drive folder](https://drive.google.com/drive/folders/1zJVyzEFAMtvZTTueWRocxXs63jUxsl-U?usp=sharing))
 
@@ -17,7 +17,7 @@ python Circr.py --threads 8 -i CircRNA_Overlap12_18hrs.bed --gtf ./support_files
 
 ```
 
-## miRNA-mRNA Prediction
+## MiRNA-mRNA prediction
 
 To mimic the previous circRNA-miRNA prediction, we have CUSTOM MODIFIED the CircR.py script to enable the input to be mRNA bed file instead of circRNA. In this case, we use the 3' UTR mRNA bed12 file obtained from UCSC. This is because miRNA predominantly binds to the 3' UTR region of human mRNAs.
 
