@@ -19,7 +19,7 @@ python Circr.py --threads 8 -i CircRNA_Overlap12_18hrs.bed --gtf ./support_files
 
 ## MiRNA-mRNA prediction
 
-To mimic the previous circRNA-miRNA prediction, we have CUSTOM MODIFIED the CircR.py script to enable the input to be mRNA bed file instead of circRNA. In this case, we use the 3' UTR mRNA bed12 file obtained from UCSC. This is because miRNA predominantly binds to the 3' UTR region of human mRNAs.
+To mimic the previous circRNA-miRNA prediction, we have **CUSTOM MODIFIED** the CircR.py script to enable the input to be mRNA bed file instead of circRNA. In this case, we use the 3' UTR mRNA bed12 file obtained from UCSC. This is because miRNA predominantly binds to the 3' UTR region of human mRNAs.
 
 Example run:
 
