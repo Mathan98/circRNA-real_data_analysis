@@ -6,4 +6,4 @@ miRNA-mRNA.py is a modified script based off the circR.py to enable miRNA-mRNA a
 Script to run miRNA-mRNA analysis:
 ==================================
 
-python Circr_2.py -i circr2_input12.bed --coord --gtf human_gencode_vch38.gtf --genome hg38.fa --rRNA hg38.rRNA.bed --miRNA miRNA_miRanda.fa --AGO hg38.AGO.bed --validated_interactions hg38.INT.bed --threads 4 --TS_miRNA_lib miRNA_TS.txt -o miRNA_mRNA_results.csv
+python Circr_2.py -i circr2_input12.bed --coord --gtf hg38.ensGene.gtf --genome hg38.fa --rRNA hg38.rRNA.bed --miRNA miRNA_miRanda.fa --AGO hg38.AGO.bed --validated_interactions hg38.INT.bed --threads 4 --TS_miRNA_lib miRNA_TS.txt -o miRNA_mRNA_results.csv
